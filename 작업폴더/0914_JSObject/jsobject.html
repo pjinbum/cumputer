@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <link href="css/common.css" rel="stylesheet">
+        
+        <script type="text/javascript" src="script/object.js"></script>
+    </head>
+    <body>
+        <div id="info_input">
+            <div class="info">
+                <div class="title">책제목</div>
+                <div class="cont">
+                    <input type="text" id="booktitle">
+                </div>
+            </div>
+            <div class="info">
+                <div class="title">저자</div>
+                <div class="cont">
+                    <input type="text" id="writer">
+                </div>
+            </div>
+            <div class="info">
+                <div class="title">출간년도</div>
+                <div class="cont">
+                    <input type="text" id="year">
+                </div>
+            </div>
+            <div class="info">
+                <div class="title">분류</div>
+                <div class="cont">
+                    <input type="text" id="kind">
+                </div>
+            </div>
+            <div class="info">
+                <div class="title">도서번호</div>
+                <div class="cont">
+                    <input type="text" id="booknum">
+                </div>
+            </div>
+        </div>  
+        <div class="booksave">
+            <a href="javascript:book_save();">도서등록</a>
+        </div style="width:200px; height:40px;">
+        <div><a href="javascript:book_print();" style="text-decoration:none; display:block; height:40px; line-height:40px; text-align:center; background:lightgreen; font-size:20px;">도서목록</a></div>
+        <hr>
+        <div id="list">
+            
+        </div>
+    </body>
+</html>
